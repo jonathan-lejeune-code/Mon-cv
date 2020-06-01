@@ -1,0 +1,96 @@
+/*couleur du fond*/
+body{
+	background-color: #383D3C;
+	font-size: 50px;
+	margin: auto;
+}
+/* réglage titre */
+h1.titlename{
+ color: #000;
+ font-size: 50px;
+ padding-left: 350px;
+ margin-top: 10px;
+ margin-bottom: 10px;
+ font-family:"times new roman", serif;
+}
+
+ h2.titlejob{
+ color: #000;
+ font-size: 20px;
+ padding-left:440px;
+ margin-top:10px;
+ margin-bottom:10px;
+ font-family: "comic sans ms",serif;
+ }
+/* mise en forme onglet*/
+ ul.onglet{
+ 	list-style-type: none;
+ 	font-size: 20px;
+ 	font-family: "comic sans ms", "times new roman", serif; 
+ 	margin: 0; 
+ }
+ /*mise en page de la liste onglet*/
+ul.onglet,li, a {color: #1AC5AE;
+	text-decoration: none;
+	display: inline;
+	margin-left: 30px;
+
+ }
+
+ /*mise en forme présentation*/
+ .intro{
+ 	font-family: "comic sans ms", "times new roman", serif; 
+ 	font-size: 40px;
+ 	padding-left: 425px;
+ 	margin-bottom: 4px;
+ 
+ }
+
+/* mise en page de moi*/
+.myprofil{
+	font-family: "times new roman", serif;
+	font-size:16px;
+	font-style: italic;
+	padding-left: 455px;
+	margin-top: 4px;
+}
+.moi{
+	color: #1AC5AE;
+	font-family:  arial, "times new roman", serif;
+	font-size: 16px;
+	padding-left: 10px;
+	margin-bottom: 20px;
+
+}
+
+ /*mise en forme experience*/
+ .intro2{
+ 	font-family: "comic sans ms", "times new roman", serif; 
+ 	font-size: 40px;
+ 	padding-left: 430px;
+ 	margin-top: 50px;
+ 	margin-bottom: 4px;
+ 
+ }
+
+/* mise en page de */
+.myprofil2{
+	font-family: "times new roman", serif;
+	font-size:16px;
+	font-style: italic;
+	padding-left: 465px;
+	margin-top: 4px;
+}
+.myexperience{
+	color: #1AC5AE;
+	font-family:  arial, "times new roman", serif;
+	font-size: 16px;
+	padding-left: 20px;
+
+}
+
+.logohtmlcss{
+	width: 120px;
+    height: 120px;
+}
+
