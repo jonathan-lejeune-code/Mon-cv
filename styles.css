@@ -4,11 +4,17 @@ body{
 	font-size: 50px;
 	margin: auto;
 }
+/* fond couleur head page*/
+
+#headpage{
+	background-color: #1AC5AE;
+}
+
 /* réglage titre */
 h1.titlename{
  color: #000;
  font-size: 50px;
- padding-left: 350px;
+ text-align: center;
  margin-top: 10px;
  margin-bottom: 10px;
  font-family:"times new roman", serif;
@@ -17,17 +23,19 @@ h1.titlename{
  h2.titlejob{
  color: #000;
  font-size: 20px;
- padding-left:440px;
+ text-align: center;
  margin-top:10px;
  margin-bottom:10px;
  font-family: "comic sans ms",serif;
  }
 /* mise en forme onglet*/
- ul.onglet{
+ nav.menu{
  	list-style-type: none;
  	font-size: 20px;
- 	font-family: "comic sans ms", "times new roman", serif; 
+ 	font-family: "times new roman", serif;
  	margin: 0; 
+ 	text-align: center;
+ 	background-color: #000;
  }
  /*mise en page de la liste onglet*/
 ul.onglet,li, a {color: #1AC5AE;
@@ -36,61 +44,237 @@ ul.onglet,li, a {color: #1AC5AE;
 	margin-left: 30px;
 
  }
-
- /*mise en forme présentation*/
- .intro{
- 	font-family: "comic sans ms", "times new roman", serif; 
- 	font-size: 40px;
- 	padding-left: 425px;
- 	margin-bottom: 4px;
- 
+/*photo de moi */ 
+ #pictureme{
+ 	width:10px;
+ 	height: 10px;
+ 	padding-top: 10px;
  }
 
-/* mise en page de moi*/
+ /*mise en forme titre présentation*/
+ .intro{
+ 	font-family: Georgia, serif; 
+ 	font-size: 40px;
+ 	margin-bottom: 4px;
+ 	text-align: center;
+ }
+
+/* mise en forme texte paragraphe présentation*/ 
 .myprofil{
 	font-family: "times new roman", serif;
 	font-size:16px;
 	font-style: italic;
-	padding-left: 455px;
-	margin-top: 4px;
+	text-align: center;
+	margin-top: 4px;	
 }
 .moi{
 	color: #1AC5AE;
-	font-family:  arial, "times new roman", serif;
+	font-family: cursive;
 	font-size: 16px;
-	padding-left: 10px;
+	padding-left: 300px;
+	padding-right: 300px;
 	margin-bottom: 20px;
+	text-align: center;
 
 }
+/* mise en forme titre compétence*/ 
 
- /*mise en forme experience*/
- .intro2{
- 	font-family: "comic sans ms", "times new roman", serif; 
+.intro2{
+	font-family:  Georgia, serif; 
  	font-size: 40px;
- 	padding-left: 430px;
+ 	text-align: center;
+ 	margin-top: 50px;
+ 	margin-bottom: 4px;
+
+/* mise en page texte paragraphe compétence*/ 
+ }
+ .myprofil2{
+ 	font-family: "times new roman", serif;
+	font-size:16px;
+	font-style: italic;
+	text-align: center;
+	margin-top: 4px;
+}
+
+div.iconcomp{
+	width: 0px;
+	height:0px;
+	float: left;
+	padding-left:380px;	 
+}
+
+ /* logo html et css*/
+
+img.logohtml{
+	width: 80px;
+    height: 80px;
+    padding-top: 10px;
+    padding-left: 450px ;    
+}
+
+img.logocss{
+	width: 80px;
+    height: 80px;
+    padding-top: 10px;
+    padding-left: 10px;    
+}
+
+
+ /*mise en forme titre experience*/
+ .intro3{
+ 	font-family:  Georgia, serif;
+ 	font-size: 40px;
+ 	text-align: center;
+ 	margin-top: 50px;
+ 	margin-bottom: 4px;
+ }
+
+
+/* mise en page texte paragraphe expérience */
+.myprofil3{
+	font-family: "times new roman", serif;
+	font-size:16px;
+	font-style: italic;
+	text-align: center;
+	margin-top: 4px;
+}
+.myexperience{
+	color: #1AC5AE;
+	font-family: cursive;
+	font-size: 16px;
+	padding-left: 300px;
+	padding-right: 300px;
+	text-align: center;
+}
+
+div.iconexp{
+	width: 0px;
+	height:0px;
+	float: left;
+	padding-left:390px;	 
+}
+
+/*mise en forme titre diplome*/
+.intro4{
+ 	font-family: Georgia, serif; 
+ 	font-size: 40px;
+ 	text-align: center;
  	margin-top: 50px;
  	margin-bottom: 4px;
  
  }
 
-/* mise en page de */
-.myprofil2{
-	font-family: "times new roman", serif;
+/* mise en page texte paragraphe diplome */
+.myprofil4{
+	font-family: times, serif;
 	font-size:16px;
 	font-style: italic;
-	padding-left: 465px;
+	text-align: center;
 	margin-top: 4px;
 }
-.myexperience{
+.mydiplome{
 	color: #1AC5AE;
 	font-family:  arial, "times new roman", serif;
 	font-size: 16px;
-	padding-left: 20px;
-
+	padding-left: 300px;
+	padding-right: 300px;
+	text-align: center;
 }
 
-.logohtmlcss{
-	width: 120px;
-    height: 120px;
+div.certificate{
+	width: 0px;
+	height:0px;
+	float: left;
+	padding-left:390px;	 
+}
+/*mise en forme titre interet*/
+ .intro5{
+ 	font-family:  Georgia, serif;
+ 	font-size: 40px;
+ 	text-align: center;
+ 	margin-top: 80px;
+ 	margin-bottom: 4px;
+ 
+ }
+
+/* mise en page texte paragraphe interet */
+.myprofil5{
+	font-family: "times new roman", serif;
+	font-size:16px;
+	font-style: italic;
+	text-align: center;
+	margin-top: 4px;
+}
+.myinteret{
+	color: #1AC5AE;
+	font-family:  arial, "times new roman", serif;
+	font-size: 16px;
+	padding-left: 300px;
+	padding-right: 300px;
+	text-align: center;
 }
 
+div.heart{
+	width: 0px;
+	height:0px;
+	float: left;
+	padding-left:390px; 
+}
+
+
+div.icongame{
+	width: 0px;
+	height:0px;
+	padding-left:540px; 
+}
+
+div.cooking{
+	width: 0px;
+	height:0px;
+	padding-left:440px; 
+}
+
+div.book{
+	width: 0px;
+	height:0px;
+	padding-left:640px; 
+}
+/*mise en forme titre contact*/
+ .intro6{
+ 	font-family: Georgia, serif; 
+ 	font-size: 40px;
+ 	text-align: center;
+ 	margin-top: 100px;
+ 	margin-bottom: 4px;
+ }
+
+ div.phone{
+	width: 0px;
+	height:0px;
+	float: left;
+	padding-left:390px;
+}
+
+/* mise en page texte paragraphe contact */
+.myprofil6{
+	font-family: "times new roman", serif;
+	font-size:16px;
+	font-style: italic;
+	text-align: center;
+	margin-top: 4px;
+}
+.mycontact{
+	color: #1AC5AE;
+	font-family:  arial, "times new roman", serif;
+	font-size: 16px;
+	padding-left: 300px;
+	padding-right: 300px;
+	text-align: center;
+
+
+}
+footer{
+	font-size: 12px;
+	font-family: "times new roman", serif;
+	text-align: left;
+	}
