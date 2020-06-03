@@ -8,6 +8,7 @@ body{
 
 #headpage{
 	background-color: #1AC5AE;
+
 }
 
 /* réglage titre */
@@ -57,6 +58,7 @@ ul.onglet,li, a {color: #1AC5AE;
  	font-size: 40px;
  	margin-bottom: 4px;
  	text-align: center;
+ 	
  }
 
 /* mise en forme texte paragraphe présentation*/ 
@@ -85,9 +87,9 @@ ul.onglet,li, a {color: #1AC5AE;
  	text-align: center;
  	margin-top: 50px;
  	margin-bottom: 4px;
-
+  }
 /* mise en page texte paragraphe compétence*/ 
- }
+ 
  .myprofil2{
  	font-family: "times new roman", serif;
 	font-size:16px;
@@ -267,9 +269,9 @@ div.book{
 	color: #1AC5AE;
 	font-family:  arial, "times new roman", serif;
 	font-size: 16px;
-	padding-left: 300px;
-	padding-right: 300px;
-	text-align: center;
+	padding-left:450px;
+	
+	
 
 
 }
