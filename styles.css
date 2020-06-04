@@ -3,6 +3,7 @@ body{
 	background-color: #383D3C;
 	font-size: 50px;
 	margin: auto;
+	height: auto;
 }
 /* fond couleur head page*/
 
@@ -51,7 +52,13 @@ ul.onglet,li, a {color: #1AC5AE;
  	height: 10px;
  	padding-top: 10px;
  }
-
+/*block présentation*/
+#présentation{
+	width: 700px;
+	height: 200px;
+	margin-left: auto;
+	margin-right: auto;
+}
  /*mise en forme titre présentation*/
  .intro{
  	font-family: Georgia, serif; 
@@ -73,11 +80,18 @@ ul.onglet,li, a {color: #1AC5AE;
 	color: #1AC5AE;
 	font-family: cursive;
 	font-size: 16px;
-	padding-left: 300px;
-	padding-right: 300px;
-	margin-bottom: 20px;
+	margin-left: auto;
+	margin-right: auto;
+    margin-bottom: 15px;
 	text-align: center;
 
+}
+/*block compétence */
+#compétence{
+	width: 700px;
+	height: 200px;
+	margin-left: auto;
+	margin-right: auto;
 }
 /* mise en forme titre compétence*/ 
 
@@ -85,7 +99,7 @@ ul.onglet,li, a {color: #1AC5AE;
 	font-family:  Georgia, serif; 
  	font-size: 40px;
  	text-align: center;
- 	margin-top: 50px;
+ 	margin-top: 0px;
  	margin-bottom: 4px;
   }
 /* mise en page texte paragraphe compétence*/ 
@@ -102,7 +116,8 @@ div.iconcomp{
 	width: 0px;
 	height:0px;
 	float: left;
-	padding-left:380px;	 
+	margin-left: 170px;
+	margin-right: 530px; 
 }
 
  /* logo html et css*/
@@ -110,24 +125,29 @@ div.iconcomp{
 img.logohtml{
 	width: 80px;
     height: 80px;
-    padding-top: 10px;
-    padding-left: 450px ;    
+   margin-left: 270px;
+	
 }
 
 img.logocss{
 	width: 80px;
     height: 80px;
-    padding-top: 10px;
-    padding-left: 10px;    
+	margin-right: auto;   
 }
-
+/*block experience*/
+#experience{
+	width: 700px;
+	height: 200px;
+	margin-left: auto;
+	margin-right: auto;
+}
 
  /*mise en forme titre experience*/
  .intro3{
  	font-family:  Georgia, serif;
  	font-size: 40px;
  	text-align: center;
- 	margin-top: 50px;
+ 	margin-top: 2px;
  	margin-bottom: 4px;
  }
 
@@ -144,8 +164,8 @@ img.logocss{
 	color: #1AC5AE;
 	font-family: cursive;
 	font-size: 16px;
-	padding-left: 300px;
-	padding-right: 300px;
+	margin-left: auto;
+	margin-right: auto;
 	text-align: center;
 }
 
@@ -153,15 +173,22 @@ div.iconexp{
 	width: 0px;
 	height:0px;
 	float: left;
-	padding-left:390px;	 
+	margin-left: 170px;
+	margin-right: 530px; 
 }
-
+/*block diplome*/
+#diplome{
+	width: 700px;
+	height: 200px;
+	margin-left: auto;
+	margin-right: auto;
+}
 /*mise en forme titre diplome*/
 .intro4{
  	font-family: Georgia, serif; 
  	font-size: 40px;
  	text-align: center;
- 	margin-top: 50px;
+ 	margin-top: 2px;
  	margin-bottom: 4px;
  
  }
@@ -172,14 +199,12 @@ div.iconexp{
 	font-size:16px;
 	font-style: italic;
 	text-align: center;
-	margin-top: 4px;
+	margin-top: 2px;
 }
 .mydiplome{
 	color: #1AC5AE;
 	font-family:  arial, "times new roman", serif;
 	font-size: 16px;
-	padding-left: 300px;
-	padding-right: 300px;
 	text-align: center;
 }
 
@@ -187,14 +212,22 @@ div.certificate{
 	width: 0px;
 	height:0px;
 	float: left;
-	padding-left:390px;	 
+	margin-left: 200px;
+	margin-right: 500px;	 
+}
+/*block interet */
+#interet{
+	width: 700px;
+	height: 200px;
+	margin-left: auto;
+	margin-right: auto;
 }
 /*mise en forme titre interet*/
  .intro5{
  	font-family:  Georgia, serif;
  	font-size: 40px;
  	text-align: center;
- 	margin-top: 80px;
+ 	margin-top: 2px;
  	margin-bottom: 4px;
  
  }
@@ -211,51 +244,57 @@ div.certificate{
 	color: #1AC5AE;
 	font-family:  arial, "times new roman", serif;
 	font-size: 16px;
-	padding-left: 300px;
-	padding-right: 300px;
+	margin-left: 150px;
+	margin-right: 150px;
 	text-align: center;
 }
 
 div.heart{
 	width: 0px;
 	height:0px;
-	float: left;
-	padding-left:390px; 
+	margin-left: 220px;
+	margin-right: 380px; 
 }
 
 
 div.icongame{
 	width: 0px;
 	height:0px;
-	padding-left:540px; 
+	margin-left: 220px;
+	margin-right: 380px;
+	 
 }
 
 div.cooking{
 	width: 0px;
 	height:0px;
-	padding-left:440px; 
+	margin-left: 320px;
+	margin-right: 280px; 
 }
 
 div.book{
 	width: 0px;
 	height:0px;
-	padding-left:640px; 
+	margin-left: 420px;
+	margin-right: 180px;  
 }
+/*block contact*/
+#contact {
+	background-color: yellow; 
+	width: 700px;
+	height: 200px;
+	margin-left: auto;
+	margin-right: auto;
+  }
+
 /*mise en forme titre contact*/
  .intro6{
  	font-family: Georgia, serif; 
  	font-size: 40px;
  	text-align: center;
- 	margin-top: 100px;
+ 	margin-top: 10px;
  	margin-bottom: 4px;
  }
-
- div.phone{
-	width: 0px;
-	height:0px;
-	float: left;
-	padding-left:390px;
-}
 
 /* mise en page texte paragraphe contact */
 .myprofil6{
@@ -269,14 +308,46 @@ div.book{
 	color: #1AC5AE;
 	font-family:  arial, "times new roman", serif;
 	font-size: 16px;
-	padding-left:450px;
-	
-	
-
-
+	margin-right: 450px;
+	margin-left:450px;
 }
+
+div.phone{
+	width: 0px;
+	height:0px;
+	margin-left: 220px;
+	margin-right: 380px;
+}
+
+div.txitter{
+	width: 0px;
+	height:0px;
+	margin-left: 500px;
+}	
+
+div.facebook{
+	width: 0px;
+	height:0px;
+	margin-left: 330px;
+	  
+}
+
+div.github{
+	width: 0px;
+	height:0px;
+	margin-left: 430px;
+}	
+
+div.mail{
+	width: 0px;
+	height:0px;
+	margin-left:230px ;
+	  
+}
+	
 footer{
 	font-size: 12px;
 	font-family: "times new roman", serif;
 	text-align: left;
+	padding-top:100px;
 	}
