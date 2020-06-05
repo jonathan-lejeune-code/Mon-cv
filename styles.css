@@ -280,7 +280,6 @@ div.book{
 }
 /*block contact*/
 #contact {
-	background-color: yellow; 
 	width: 700px;
 	height: 200px;
 	margin-left: auto;
@@ -319,30 +318,28 @@ div.phone{
 	margin-right: 380px;
 }
 
-div.txitter{
+div.twitter{
 	width: 0px;
 	height:0px;
-	margin-left: 500px;
+	margin-left:120px;
 }	
 
 div.facebook{
 	width: 0px;
 	height:0px;
-	margin-left: 330px;
-	  
+	margin-left: 320px;	  
 }
 
 div.github{
 	width: 0px;
 	height:0px;
-	margin-left: 430px;
+	margin-left: 420px;
 }	
 
 div.mail{
 	width: 0px;
 	height:0px;
-	margin-left:230px ;
-	  
+	margin-left:220px ;	  
 }
 	
 footer{
