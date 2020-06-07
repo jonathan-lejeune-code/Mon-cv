@@ -87,10 +87,21 @@ ul.onglet,li, a {color: #1AC5AE;
 	text-align: center;
 
 }
+
+div.iconpres{
+	width: 0px;
+	height:0px;
+	float: left;
+	margin-left: 170px;
+	margin-right: 530px; 
+}
+
+
+
 /*block compétence */
 #compétence{
 	width: 700px;
-	height: 400px;
+	height: 300px;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -150,7 +161,7 @@ div.iconcomp{
     content: '';
     display: block;
     position: absolute;
-    width: 270px; /*pourcentage bar progression*/
+    width: 280px; /*pourcentage bar progression*/
     height: 24px;
     background: #1AC5AE;
     border-radius: 12px;
@@ -180,7 +191,7 @@ img.logohtml{
     content: '';
     display: block;
     position: absolute;
-    width: 270px; /*pourcentage bar progression*/
+    width: 280px; /*pourcentage bar progression*/
     height: 24px;
     background: #1AC5AE;
     border-radius: 12px;
@@ -210,7 +221,7 @@ img.logocss{
     content: '';
     display: block;
     position: absolute;
-    width: 0px;  /*pourcentage bar progression*/
+    width: 10px;  /*pourcentage bar progression*/
     height: 24px;
     background: #1AC5AE;
     border-radius: 12px;
@@ -288,7 +299,7 @@ div.iconexp{
  
  }
 
-/* mise en page texte paragraphe diplome */
+/* mise en page texte et paragraphe diplome */
 .myprofil4{
 	font-family: times, serif;
 	font-size:16px;
@@ -328,7 +339,7 @@ div.certificate{
  	 
  }
 
-/* mise en page texte paragraphe interet */
+/* mise en page texte et paragraphe interet */
 .myprofil5{
 	font-family: "times new roman", serif;
 	font-size:16px;
@@ -377,7 +388,7 @@ div.book{
 /*block contact*/
 #contact {
 	width: 700px;
-	height: 300px;
+	height: 200px;
 	margin-left: auto;
 	margin-right: auto;
   }
@@ -393,7 +404,7 @@ div.book{
  	
  }
 
-/* mise en page texte paragraphe contact */
+/* mise en page texte et paragraphe contact */
 .myprofil6{
 	font-family: "times new roman", serif;
 	font-size:16px;
@@ -439,10 +450,9 @@ div.mail{
 	height:0px;
 	margin-left:220px ;	  
 }
-	
+	/*bas de page */
 footer{
 	font-size: 12px;
 	font-family: "times new roman", serif;
 	text-align: left;
-	padding-top:100px;
 	}
