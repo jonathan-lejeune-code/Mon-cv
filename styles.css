@@ -1,461 +1,456 @@
 /*couleur du fond*/
-body{
-	background-color: #383D3C;
-	font-size: 50px;
-	margin: auto;
-	height: auto;
+body {
+  background-color: #383D3C;
+  font-size: 50px;
+  margin: auto;
+  height: auto;
 }
+
 /* fond couleur head page*/
-
-#headpage{
-	background-color: #1AC5AE;
-
+#headpage {
+  background-color: #1AC5AE;
 }
 
 /* réglage titre */
-h1.titlename{
- color: #000;
- font-size: 50px;
- text-align: center;
- margin-top: 10px;
- margin-bottom: 10px;
- font-family:"times new roman", serif;
+h1.titlename {
+  color: #000;
+  font-size: 50px;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: "times new roman", serif;
 }
 
- h2.titlejob{
- color: #000;
- font-size: 20px;
- text-align: center;
- margin-top:10px;
- margin-bottom:10px;
- font-family: "comic sans ms",serif;
- }
-/* mise en forme onglet*/
- nav.menu{
- 	list-style-type: none;
- 	font-size: 20px;
- 	font-family: "times new roman", serif;
- 	margin: 0; 
- 	text-align: center;
- 	background-color: #000;
- }
- /*mise en page de la liste onglet*/
-ul.onglet,li, a {color: #1AC5AE;
-	text-decoration: none;
-	display: inline;
-	margin-left: 30px;
+h2.titlejob {
+  color: #000;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: "comic sans ms", serif;
+}
 
- }
-/*photo de moi */ 
- #pictureme{
- 	width:10px;
- 	height: 10px;
- 	padding-top: 10px;
- }
+/* mise en forme onglet*/
+nav.menu {
+  list-style-type: none;
+  font-size: 20px;
+  font-family: "times new roman", serif;
+  margin: 0;
+  text-align: center;
+  background-color: #000;
+}
+
+/*mise en page de la liste onglet*/
+ul.onglet, li, a {
+  color: #1AC5AE;
+  text-decoration: none;
+  display: inline;
+  margin-left: 30px;
+}
+
+/*photo de moi */
+#pictureme {
+  width: 10px;
+  height: 10px;
+  padding-top: 10px;
+}
 
 /*block présentation*/
-#présentation{
-	width: 700px;
-	height: 300px;
-	margin-left: auto;
-	margin-right: auto;
+#présentation {
+  width: 700px;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
 }
- /*mise en forme titre présentation*/
- .intro{
- 	font-family:'Dancing Script', serif; 
- 	font-size: 40px;
- 	margin-bottom: 4px;
- 	text-align: center;
- 	text-decoration: underline #1AC5AE;
- 	
+
+/*mise en forme titre présentation*/
+.intro {
+  font-family: 'Dancing Script', serif;
+  font-size: 40px;
+  margin-bottom: 4px;
+  text-align: center;
+  text-decoration: underline #1AC5AE;
+}
+
+/* mise en forme texte paragraphe présentation*/
+.myprofil {
+  font-family: "times new roman", cursive, serif;
+  font-size: 16px;
+  font-style: italic;
+  text-align: center;
+  margin-top: 4px;
  }
-
-/* mise en forme texte paragraphe présentation*/ 
-.myprofil{
-	font-family: "times new roman",cursive, serif;
-	font-size:16px;
-	font-style: italic;
-	text-align: center;
-	margin-top: 4px;	
-}
-.moi{
-	color: #1AC5AE;
-	font-family: cursive;
-	font-size: 16px;
-	margin-left: auto;
-	margin-right: auto;
-    margin-bottom: 15px;
-	text-align: center;
-
+.moi {
+  color: #1AC5AE;
+  font-family: cursive;
+  font-size: 16px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 15px;
+  text-align: center;
 }
 
 /*icone presentation*/
-div.iconpres{
-	width: 0px;
-	height:0px;
-	float: left;
-	margin-left: 170px;
-	margin-right: 530px; 
+div.iconpres {
+  width: 0px;
+  height: 0px;
+  float: left;
+  margin-left: 170px;
+  margin-right: 530px;
 }
-
-
 
 /*block compétence */
-#compétence{
-	width: 700px;
-	height: 300px;
-	margin-left: auto;
-	margin-right: auto;
+#compétence {
+  width: 700px;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
 }
-/* mise en forme titre compétence*/ 
 
-.intro2{
-	font-family:'Dancing Script', serif; 
- 	font-size: 40px;
- 	text-align: center;
- 	margin-top: 0px;
- 	margin-bottom: 4px;
- 	text-decoration: underline #1AC5AE;
- 	
-  }
-/* mise en page texte paragraphe compétence*/ 
- 
- .myprofil2{
- 	font-family: "times new roman", serif;
-	font-size:16px;
-	font-style: italic;
-	text-align: center;
-	margin-top: 4px;
+/* mise en forme titre compétence*/
+.intro2 {
+  font-family: 'Dancing Script', serif;
+  font-size: 40px;
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 4px;
+  text-decoration: underline #1AC5AE;
+}
+
+/* mise en page texte paragraphe compétence*/
+.myprofil2 {
+  font-family: "times new roman", serif;
+  font-size: 16px;
+  font-style: italic;
+  text-align: center;
+  margin-top: 4px;
 }
 
 /*icone compétence */
-div.iconcomp{
-	width: 0px;
-	height:0px;
-	float: left;
-	margin-left: 170px;
-	margin-right: 530px; 
+div.iconcomp {
+  width: 0px;
+  height: 0px;
+  float: left;
+  margin-left: 170px;
+  margin-right: 530px;
 }
 
- /* logo & bar progress html et css*/
-
- /*block bar progression*/
-
- .progression{
- 	width: 700px;
- 	height:400px;
- }
-
-.progress-barhtml{
-	 width: 300px;
-    height: 24px;
-	margin-bottom: 50px;    
-    padding: 4px;
-    margin-left: 200px;
-    background-color: #191919;
-    border-radius: 16px;
-    -webkit-border-radius: 16px;
-    box-shadow: inset 0 1px 2px #000, 0 1px 0 #2b2b2b;
-
-    
- }
- 
-.progress-barhtml:before { 
-    content: '';
-    display: block;
-    position: absolute;
-    width: 280px; /*pourcentage bar progression*/
-    height: 24px;
-    background: #1AC5AE;
-    border-radius: 12px;
-    -webkit-border-radius: 12px;
-    -moz-border-radius: 12px;
-    
+/* logo & bar progress html et css*/
+/*block bar progression*/
+.progression {
+  width: 700px;
+  height: 400px;
 }
 
-img.logohtml{
-	width: auto;
-	margin-left: -70px;
-
+.progress-barhtml {
+  width: 300px;
+  height: 24px;
+  margin-bottom: 50px;
+  padding: 4px;
+  margin-left: 200px;
+  background-color: #191919;
+  border-radius: 16px;
+  -webkit-border-radius: 16px;
+  box-shadow: inset 0 1px 2px #000, 0 1px 0 #2b2b2b;
 }
 
-.progress-barcss{
-	 width: 300px;
-    height: 24px;
-    padding: 4px;
-    margin-left: 200px;
-    background-color: #191919;
-    border-radius: 16px;
-    -webkit-border-radius: 16px;
-    box-shadow: inset 0 1px 2px #000, 0 1px 0 #2b2b2b;  
- }
- 
-.progress-barcss:before { 
-    content: '';
-    display: block;
-    position: absolute;
-    width: 280px; /*pourcentage bar progression*/
-    height: 24px;
-    background: #1AC5AE;
-    border-radius: 12px;
-    -webkit-border-radius: 12px;
-    -moz-border-radius: 12px;  
+.progress-barhtml:before {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 280px;
+  /*pourcentage bar progression*/
+  height: 24px;
+  background: #1AC5AE;
+  border-radius: 12px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
 }
 
-img.logocss{
-	width: auto;
-	margin-left: -70px;
-
+img.logohtml {
+  width: auto;
+  margin-left: -70px;
 }
 
-.progress-barphp{
-	 width: 300px;
-    height: 24px;
-    padding: 4px;
-    margin-top:  60px;
-    margin-left: 200px;
-    background-color: #191919;
-    border-radius: 16px;
-    -webkit-border-radius: 16px;
-    box-shadow: inset 0 1px 2px #000, 0 1px 0 #2b2b2b;  
- }
- 
-.progress-barphp:before { 
-    content: '';
-    display: block;
-    position: absolute;
-    width: 10px;  /*pourcentage bar progression*/
-    height: 24px;
-    background: #1AC5AE;
-    border-radius: 12px;
-    -webkit-border-radius: 12px;
-    -moz-border-radius: 12px;  
+.progress-barcss {
+  width: 300px;
+  height: 24px;
+  padding: 4px;
+  margin-left: 200px;
+  background-color: #191919;
+  border-radius: 16px;
+  -webkit-border-radius: 16px;
+  box-shadow: inset 0 1px 2px #000, 0 1px 0 #2b2b2b;
 }
 
-img.logophp{
-	width: auto;
-	margin-left: -70px;
+.progress-barcss:before {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 280px;
+  /*pourcentage bar progression*/
+  height: 24px;
+  background: #1AC5AE;
+  border-radius: 12px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+}
 
+img.logocss {
+  width: auto;
+  margin-left: -70px;
+}
+
+.progress-barphp {
+  width: 300px;
+  height: 24px;
+  padding: 4px;
+  margin-top: 60px;
+  margin-left: 200px;
+  background-color: #191919;
+  border-radius: 16px;
+  -webkit-border-radius: 16px;
+  box-shadow: inset 0 1px 2px #000, 0 1px 0 #2b2b2b;
+}
+
+.progress-barphp:before {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 10px;
+  /*pourcentage bar progression*/
+  height: 24px;
+  background: #1AC5AE;
+  border-radius: 12px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+}
+
+img.logophp {
+  width: auto;
+  margin-left: -70px;
 }
 
 /*block experience*/
-#experience{
-	width: 700px;
-	height: 200px;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 80px;
+#experience {
+  width: 700px;
+  height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 80px;
 }
 
- /*mise en forme titre experience*/
- .intro3{
- 	font-family:'Dancing Script', serif;
- 	font-size: 40px;
- 	text-align: center;
- 	margin-top: 0px;
- 	margin-bottom: 4px;
- 	text-decoration: underline #1AC5AE;
- 	
- }
-
+/*mise en forme titre experience*/
+.intro3 {
+  font-family: 'Dancing Script', serif;
+  font-size: 40px;
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 4px;
+  text-decoration: underline #1AC5AE;
+}
 
 /* mise en page texte paragraphe expérience */
-.myprofil3{
-	font-family: "times new roman", serif;
-	font-size:16px;
-	font-style: italic;
-	text-align: center;
-	margin-top: 4px;
-}
-.myexperience{
-	color: #1AC5AE;
-	font-family: cursive;
-	font-size: 16px;
-	margin-left: auto;
-	margin-right: auto;
-	text-align: center;
+.myprofil3 {
+  font-family: "times new roman", serif;
+  font-size: 16px;
+  font-style: italic;
+  text-align: center;
+  margin-top: 4px;
 }
 
-div.iconexp{
-	width: 0px;
-	height:0px;
-	float: left;
-	margin-left: 170px;
-	margin-right: 530px; 
+.myexperience {
+  color: #1AC5AE;
+  font-family: cursive;
+  font-size: 16px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
+
+div.iconexp {
+  width: 0px;
+  height: 0px;
+  float: left;
+  margin-left: 170px;
+  margin-right: 530px;
+}
+
 /*block diplome*/
-#diplome{
-	width: 700px;
-	height: 200px;
-	margin-left: auto;
-	margin-right: auto;
+#diplome {
+  width: 700px;
+  height: 200px;
+  margin-left: auto;
+  margin-right: auto;
 }
+
 /*mise en forme titre diplome*/
-.intro4{
- 	font-family: 'Dancing Script', serif; 
- 	font-size: 40px;
- 	text-align: center;
- 	margin-top: 2px;
- 	margin-bottom: 4px;
- 	text-decoration: underline #1AC5AE;
- 	
- 
- }
+.intro4 {
+  font-family: 'Dancing Script', serif;
+  font-size: 40px;
+  text-align: center;
+  margin-top: 2px;
+  margin-bottom: 4px;
+  text-decoration: underline #1AC5AE;
+}
 
 /* mise en page texte et paragraphe diplome */
-.myprofil4{
-	font-family: times, serif;
-	font-size:16px;
-	font-style: italic;
-	text-align: center;
-	margin-top: 2px;
-}
-.mydiplome{
-	color: #1AC5AE;
-	font-family:  arial, "times new roman", serif;
-	font-size: 16px;
-	text-align: center;
+.myprofil4 {
+  font-family: times, serif;
+  font-size: 16px;
+  font-style: italic;
+  text-align: center;
+  margin-top: 2px;
 }
 
-div.certificate{
-	width: 0px;
-	height:0px;
-	float: left;
-	margin-left: 200px;
-	margin-right: 500px;	 
+.mydiplome {
+  color: #1AC5AE;
+  font-family: arial, "times new roman", serif;
+  font-size: 16px;
+  text-align: center;
 }
+
+div.certificate {
+  width: 0px;
+  height: 0px;
+  float: left;
+  margin-left: 200px;
+  margin-right: 500px;
+}
+
 /*block interet */
-#interet{
-	width: 700px;
-	height: 200px;
-	margin-left: auto;
-	margin-right: auto;
+#interet {
+  width: 700px;
+  height: 200px;
+  margin-left: auto;
+  margin-right: auto;
 }
+
 /*mise en forme titre interet*/
- .intro5{
- 	font-family:  'Dancing Script', serif;
- 	font-size: 40px;
- 	text-align: center;
- 	margin-top: 2px;
- 	margin-bottom: 4px;
-	text-decoration: underline #1AC5AE;
- 	 
- }
+.intro5 {
+  font-family: 'Dancing Script', serif;
+  font-size: 40px;
+  text-align: center;
+  margin-top: 2px;
+  margin-bottom: 4px;
+  text-decoration: underline #1AC5AE;
+}
 
 /* mise en page texte et paragraphe interet */
-.myprofil5{
-	font-family: "times new roman", serif;
-	font-size:16px;
-	font-style: italic;
-	text-align: center;
-	margin-top: 4px;
-}
-.myinteret{
-	color: #1AC5AE;
-	font-family:  arial, "times new roman", serif;
-	font-size: 16px;
-	margin-left: 150px;
-	margin-right: 150px;
-	text-align: center;
+.myprofil5 {
+  font-family: "times new roman", serif;
+  font-size: 16px;
+  font-style: italic;
+  text-align: center;
+  margin-top: 4px;
 }
 
-div.heart{
-	width: 0px;
-	height:0px;
-	margin-left: 220px;
-	margin-right: 380px; 
+.myinteret {
+  color: #1AC5AE;
+  font-family: arial, "times new roman", serif;
+  font-size: 16px;
+  margin-left: 150px;
+  margin-right: 150px;
+  text-align: center;
 }
 
-
-div.icongame{
-	width: 0px;
-	height:0px;
-	margin-left: 200px;
-	margin-right: 380px;
-	 
+div.heart {
+  width: 0px;
+  height: 0px;
+  margin-left: 220px;
+  margin-right: 380px;
 }
 
-div.cooking{
-	width: 0px;
-	height:0px;
-	margin-left: 320px;
-	margin-right: 280px; 
+div.icongame {
+  width: 0px;
+  height: 0px;
+  margin-left: 200px;
+  margin-right: 380px;
 }
 
-div.book{
-	width: 0px;
-	height:0px;
-	margin-left: 440px;
-	margin-right: 180px;  
+div.cooking {
+  width: 0px;
+  height: 0px;
+  margin-left: 320px;
+  margin-right: 280px;
 }
+
+div.book {
+  width: 0px;
+  height: 0px;
+  margin-left: 440px;
+  margin-right: 180px;
+}
+
 /*block contact*/
 #contact {
-	width: 700px;
-	height: 200px;
-	margin-left: auto;
-	margin-right: auto;
-  }
+  width: 700px;
+  height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 /*mise en forme titre contact*/
- .intro6{
- 	font-family: 'Dancing Script', serif; 
- 	font-size: 40px;
- 	text-align: center;
- 	margin-top: 10px;
- 	margin-bottom: 4px;
- 	text-decoration: underline #1AC5AE;
- 	
- }
+.intro6 {
+  font-family: 'Dancing Script', serif;
+  font-size: 40px;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 4px;
+  text-decoration: underline #1AC5AE;
+}
 
 /* mise en page texte et paragraphe contact */
-.myprofil6{
-	font-family: "times new roman", serif;
-	font-size:16px;
-	font-style: italic;
-	text-align: center;
-	margin-top: 4px;
-}
-.mycontact{
-	color: #1AC5AE;
-	font-family:  arial, "times new roman", serif;
-	font-size: 16px;
-	margin-right: 450px;
-	margin-left:450px;
+.myprofil6 {
+  font-family: "times new roman", serif;
+  font-size: 16px;
+  font-style: italic;
+  text-align: center;
+  margin-top: 4px;
 }
 
-div.phone{
-	width: 0px;
-	height:0px;
-	margin-left: 220px;
-	margin-right: 380px;
+.mycontact {
+  color: #1AC5AE;
+  font-family: arial, "times new roman", serif;
+  font-size: 16px;
+  margin-right: 450px;
+  margin-left: 450px;
 }
 
-div.twitter{
-	width: 0px;
-	height:0px;
-	margin-left:120px;
-}	
-
-div.facebook{
-	width: 0px;
-	height:0px;
-	margin-left: 320px;	  
+div.phone {
+  width: 0px;
+  height: 0px;
+  margin-left: 220px;
+  margin-right: 380px;
 }
 
-div.github{
-	width: 0px;
-	height:0px;
-	margin-left: 420px;
-}	
-
-div.mail{
-	width: 0px;
-	height:0px;
-	margin-left:220px ;	  
+div.twitter {
+  width: 0px;
+  height: 0px;
+  margin-left: 120px;
 }
-	/*bas de page */
-footer{
-	font-size: 12px;
-	font-family: "times new roman", serif;
-	text-align: left;
-	}
+
+div.facebook {
+  width: 0px;
+  height: 0px;
+  margin-left: 320px;
+}
+
+div.github {
+  width: 0px;
+  height: 0px;
+  margin-left: 420px;
+}
+
+div.mail {
+  width: 0px;
+  height: 0px;
+  margin-left: 220px;
+}
+
+/*bas de page */
+footer {
+  font-size: 12px;
+  font-family: "times new roman", serif;
+  text-align: left;
+}
