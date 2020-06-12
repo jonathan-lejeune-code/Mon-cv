@@ -35,13 +35,12 @@ nav.menu {
   list-style-type: none;
   font-size: 20px;
   font-family: "times new roman", serif;
-  margin: 0;
   text-align: center;
   background-color: #000;
 }
 
 /* mise en page de la liste onglet */
-ul.onglet li a {
+ul.onglet, li,a {
   color: #1ac5ae;
   text-decoration: none;
   display: inline;
@@ -93,11 +92,11 @@ ul.onglet li a {
 
 /* icone presentation */
 div.iconpres {
-  width: 0 px;
-  height: 0 px;
+  width: 0px;
+  height: 0px;
   float: left;
-  margin-left: 170px;
-  margin-right: 530px;
+  margin-left:190px;
+
 }
 
 /* block compétence */
@@ -113,7 +112,7 @@ div.iconpres {
   font-family: 'Dancing Script', serif;
   font-size: 40px;
   text-align: center;
-  margin-top: 0 px;
+  margin-top: 0px;
   margin-bottom: 4px;
   text-decoration: underline #1ac5ae;
 }
@@ -129,104 +128,22 @@ div.iconpres {
 
 /* icone compétence */
 div.iconcomp {
-  width: 0 px;
-  height: 0 px;
+  width: 0px;
+  height: 0px;
   float: left;
-  margin-left: 170px;
-  margin-right: 530px;
-}
-
-/* logo & bar progress html et css
-block bar progression */
-.progression {
-  width: 700px;
-  height: 400px;
-}
-
-.progress-barhtml {
-  width: 300px;
-  height: 24px;
-  margin-bottom: 50px;
-  padding: 4px;
-  margin-left: 200px;
-  background-color: #191919;
-  border-radius: 16px;
-  -webkit-border-radius: 16px;
-  box-shadow: inset 0 1px 2px #000, 0 1px 0 #2b2b2b;
-}
-
-.progress-barhtml: before {
-  content: '';
-  display: block;
-  position: absolute;
-  width: 280px;  /* pourcentage bar progression */
-  height: 24px;
-  background: #1ac5ae;
-  border-radius: 12px;
-  -webkit-border-radius: 12px;
-  -moz-border-radius: 12px;
+  margin-left:190px;
 }
 
 img.logohtml {
-  width: auto;
-  margin-left: -70px;
-}
-
-.progress-barcss {
-  width: 300px;
-  height: 24px;
-  padding: 4px;
   margin-left: 200px;
-  background-color: #191919;
-  border-radius: 16px;
-  -webkit-border-radius: 16px;
-  box-shadow: inset 0 1px 2px #000, 0 1px 0 #2b2b2b;
-}
-
-.progress-barcss: before {
-  content: '';
-  display: block;
-  position: absolute;
-  width: 280px;/* pourcentage bar progression */
-  height: 24px;
-  background: #1ac5ae;
-  border-radius: 12px;
-  -webkit-border-radius: 12px;
-  -moz-border-radius: 12px;
 }
 
 img.logocss {
-  width: auto;
-  margin-left: -70px;
-}
-
-.progress-barphp {
-  width: 300px;
-  height: 24px;
-  padding: 4px;
-  margin-top: 60px;
-  margin-left: 200px;
-  background-color: #191919;
-  border-radius: 16px;
-  -webkit-border-radius: 16px;
-  box-shadow: inset 0 1px 2px #000, 0 1px 0 #2b2b2b;
-}
-
-.progress-barphp: before {
-  content: '';
-  display: block;
-  position: absolute;
-  width: 10px;/* pourcentage bar progression */
-  height: 24px;
-  background: #1ac5ae;
-  border-radius: 12px;
-  -webkit-border-radius: 12px;
-  -moz-border-radius: 12px;
+  width: auto; 
 }
 
 img.logophp {
-  width: auto;
-  margin-left: -70px;
+  width: auto; 
 }
 
 /* block experience */
@@ -235,7 +152,6 @@ img.logophp {
   height: 200px;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 80px;
 }
 
 /* mise en forme titre experience */
@@ -243,7 +159,7 @@ img.logophp {
   font-family: 'Dancing Script', serif;
   font-size: 40px;
   text-align: center;
-  margin-top: 0 px;
+  margin-top: 0px;
   margin-bottom: 4px;
   text-decoration: underline #1ac5ae;
 }
@@ -267,11 +183,11 @@ img.logophp {
 }
 
 div.iconexp {
-  width: 0 px;
-  height: 0 px;
+  width: 0px;
+  height: 0px;
   float: left;
-  margin-left: 170px;
-  margin-right: 530px;
+  margin-left:190px;
+
 }
 
 /* block diplome */
@@ -309,11 +225,10 @@ div.iconexp {
 }
 
 div.certificate {
-  width: 0 px;
-  height: 0 px;
+  width: 0px;
+  height: 0px;
   float: left;
-  margin-left: 200px;
-  margin-right: 500px;
+  margin-left:190px;
 }
 
 /* block interet */
@@ -353,37 +268,34 @@ div.certificate {
 }
 
 div.heart {
-  width: 0 px;
-  height: 0 px;
-  margin-left: 220px;
-  margin-right: 380px;
+  width: 0px;
+  height: 0px;
+  float: left;
+  margin-left:190px;
 }
 
 div.icongame {
-  width: 0 px;
-  height: 0 px;
+  width: 0px;
+  height: 0px;
   margin-left: 200px;
-  margin-right: 380px;
 }
 
 div.cooking {
-  width: 0 px;
-  height: 0 px;
-  margin-left: 320px;
-  margin-right: 280px;
+  width: 0px;
+  height: 0px;
+  margin-left: 300px;
 }
 
 div.book {
-  width: 0 px;
-  height: 0 px;
-  margin-left: 440px;
-  margin-right: 180px;
+  width: 0px;
+  height: 0px;
+  margin-left: 400px;
 }
 
 /* block contact */
 #contact {
   width: 700px;
-  height: 200px;
+  height: 300px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -392,9 +304,7 @@ div.book {
 .intro6 {
   font-family: 'Dancing Script', serif;
   font-size: 40px;
-  text-align: center;
-  margin-top: 10px;
-  margin-bottom: 4px;
+  text-align: center;  
   text-decoration: underline #1ac5ae;
 }
 
@@ -404,51 +314,54 @@ div.book {
   font-size: 16px;
   font-style: italic;
   text-align: center;
-  margin-top: 4px;
+ 
 }
 
 .mycontact {
   color: #1ac5ae;
   font-family: arial, "times new roman", serif;
   font-size: 16px;
-  margin-right: 450px;
-  margin-left: 450px;
+
 }
 
 div.phone {
-  width: 0 px;
-  height: 0 px;
-  margin-left: 220px;
-  margin-right: 380px;
+  width: 0px;
+  height: 0px;
+  float: left;
+  margin-left:190px;
 }
 
 div.twitter {
-  width: 0 px;
-  height: 0 px;
-  margin-left: 120px;
+  width: 0px;
+  height: 0px;
+  margin-left: 160px;
+ 
 }
 
 div.facebook {
-  width: 0 px;
-  height: 0 px;
-  margin-left: 320px;
+  width: 0px;
+  height: 0px;
+  margin-left: 260px;
+  
 }
 
 div.github {
-  width: 0 px;
-  height: 0 px;
-  margin-left: 420px;
+  width: 0px;
+  height: 0px;
+  margin-left: 360px;
+ 
 }
 
 div.mail {
-  width: 0 px;
-  height: 0 px;
-  margin-left: 220px;
+  width: 0px;
+  height: 0px;
+ margin-left: 460px;
 }
 
 /* bas de page */
 footer {
-  font-size: 12px;
+  font-size: 18px;
   font-family: "times new roman", serif;
   text-align: left;
+  margin-top: auto;
 }
